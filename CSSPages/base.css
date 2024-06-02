@@ -1,0 +1,72 @@
+:root {
+    --color-primary: #ff7b54;
+    --color-secondary: #333;
+    --color-text-primary: #ffffff;
+    --color-quaternary: #333;
+    --color-quinary: #333;
+    --color-senary: #333;
+    --color-septenary: #333;
+    --color-octonary: #333;
+    --color-nonary: #333;
+
+    --font-family-primary: BMPlexSerif, sans-serif;
+    --font-family-secondary: BMPlexSerif-Bold, sans-serif;
+}
+
+@font-face {
+    font-family: BMPlexSerif;
+    src: url(../fonts/BMPlexSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: BMPlexSerif-Bold;
+    src: url(../fonts/IBMPlexSerif-SemiBoldItalic.ttf);
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-text-primary);
+    font-family: var(--font-family-primary);
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 34px;
+    grid-template-rows: 1fr;
+    align-items: center;
+    grid-template-areas: "logo nav shopping-cart";
+    padding: 0 60px;
+
+}
+
+.header-link {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header img {
+    grid-area: shopping-cart;
+    width: 30px;
+    height: 30px;
+}
+
+.nav {
+    display: inline-block;
+    justify-self: end;
+}
+
+.nav_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_list-item {
+    margin-inline-end: 36px;
+    /*added margin to the right top right button left*/
+    font-size: 20px;
+}
