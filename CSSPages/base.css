@@ -23,50 +23,23 @@
     src: url(../fonts/IBMPlexSerif-SemiBoldItalic.ttf);
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
-    background-color: var(--color-primary);
-    color: var(--color-text-primary);
-    font-family: var(--font-family-primary);
+    margin: 0;
+    padding: 0;
+
 }
 
 a {
     color: inherit;
     text-decoration: inherit;
-}
-
-.header {
-    display: grid;
-    grid-template-columns: 1fr 3fr 34px;
-    grid-template-rows: 1fr;
-    align-items: center;
-    grid-template-areas: "logo nav shopping-cart";
-    padding: 0 60px;
-
-}
-
-.header-link {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-header img {
-    grid-area: shopping-cart;
-    width: 30px;
-    height: 30px;
-}
-
-.nav {
-    display: inline-block;
-    justify-self: end;
-}
-
-.nav_list {
-    display: flex;
-    list-style-type: none;
-}
-
-.nav_list-item {
-    margin-inline-end: 36px;
-    /*added margin to the right top right button left*/
-    font-size: 20px;
 }
