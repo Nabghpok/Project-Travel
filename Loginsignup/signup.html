@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/signup.css">
 </head>
 
 <body>
-    <h2>Sign Up Form</h2>
-    <form action="signup.php" method="post">
+    <h2 class="adj">Sign Up Form</h2>
+    <form class="form" action="signup.php" method="post">
         <div>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -41,8 +42,9 @@
         <div>
             <button type="submit">Sign Up</button>
         </div>
+
+        <p>Already have an account? <a href="login.html">Login here</a>.</p>
     </form>
-    <p>Already have an account? <a href="login.html">Login here</a>.</p>
 </body>
 
 </html>
