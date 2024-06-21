@@ -1,0 +1,54 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace';
+}
+
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('contactphoto.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8) ;
+}
+
+section{
+     position: relative;
+     z-index: 3;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+
+.container{
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section-header{
+     margin: 50px;
+     text-align: center;
+}
+
+.section-header h2{
+   color: #fff;
+}
