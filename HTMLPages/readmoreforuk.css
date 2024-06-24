@@ -1,0 +1,45 @@
+ /*About Us*/
+ .content{
+    width: 100%;
+    background-color: white;
+    height: 88vh;
+    padding: 30px 50px 20px 50px;
+   }
+
+   .content .heading{
+     font-size:40px;
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: 500;
+    }
+    .content .line{
+    width: 20%;
+    height: 2px;
+    background-color: #000;
+    margin: aut0;
+     }
+
+     .content .left_text{
+      width: 50%;
+      margin-top: 50px;
+      line-height: 25px;
+      text-align: justify;
+      font-weight: 400;
+      font-size: 18px;
+      /*background-color: aliceblue;*/
+      float: left;
+      margin-right: 30px;
+      padding: 20px;
+     }
+
+     .content .left_text p{
+      margin-right: 20px;
+     }
+
+     .content .right_img{
+      float: right;
+      width: 40%;
+      margin-top: 50px;
+     }
+
+   
