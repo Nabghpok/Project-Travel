@@ -1,0 +1,15 @@
+@import "/CSSPages/base.css";
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+label {
+    max-width: 300px;
+    text-align: left;
+    min-width: 300px;
+}
