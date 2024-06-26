@@ -1,0 +1,102 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+}
+
+/* Container to hold the content */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Logo styling */
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Navigation menu */
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul li {
+    margin: 0 10px;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Search bar */
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Menu toggle button */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 4px 0;
+}
+
+/* Responsive styling for devices less than 800px */
+@media (max-width: 800px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        background: #2c3e50;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+    }
+
+    .nav-menu ul li {
+        margin: 10px 0;
+    }
+}
