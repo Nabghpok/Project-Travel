@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +14,7 @@
 </head>
 
 <body>
+
     <header>
         <nav>
             <h3>Global tour</h3>
@@ -17,29 +22,67 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="./aboutus.html">About us</a></li>
                 <li><a href="./contact.html">Contact</a></li>
-                <li><button id="loginBtn">Login</button></li>
-
+                <?php if (isset($_SESSION['username'])) : ?>
+                    <li>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></li>
+                    <li><a href="../DatabaseValidation/logout.php">Logout</a></li>
+                <?php else : ?>
+                    <li><button id="toggleLoginSignup">Login / Sign Up</button></li>
+                <?php endif; ?>
             </ul>
             <i class="bi bi-three-dots"></i>
-            <!-- for pop up login -->
-            <!-- <div id="loginPopup" class="popup">
+
+            <div id="loginSignupPopup" class="popup">
                 <div class="popup-content">
                     <span class="close-btn">&times;</span>
-                    <iframe id="loginFrame" src="/Loginsignup/login.html" frameborder="0"></iframe>
-                </div>
-            </div> -->
-            <!-- pupup code finished for login -->
-            <!-- Login Popup -->
-            <div id="loginPopup" class="popup">
-                <div class="popup-content">
-                    <span class="close-btn">&times;</span>
-                    <form id="loginForm">
+
+                    <!-- Login Form -->
+                    <form id="loginForm" action="../DatabaseValidation/login.php" method="POST">
                         <h2>Login</h2>
-                        <label for="username">Username:</label>
-                        <input type="text" id="username" name="username" required>
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" required>
+                        <label for="loginUsername">Username:</label>
+                        <input class="uname" type="text" id="loginUsername" name="username" required>
+
+                        <label for="loginPassword">Password:</label>
+                        <input class="uname" type="password" id="loginPassword" name="password" required>
                         <button type="submit">Login</button>
+                        <p>Don't have an account? <a href="#" id="showSignupForm">Sign up here</a></p>
+                    </form>
+
+                    <!-- Signup Form -->
+                    <form id="signupForm" class="form" action="../DatabaseValidation/signup.php" method="post" style="display: none;">
+                        <h2>Sign Up</h2>
+                        <div>
+                            <label class="size" for="username">Username:</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div>
+                            <label class="size" for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="first_name" required>
+                        </div>
+                        <div>
+                            <label class="size" for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="last_name" required>
+                        </div>
+                        <div>
+                            <label class="size" for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label class="size" for="country">Country:</label>
+                            <input type="text" id="country" name="country" required>
+                        </div>
+                        <div>
+                            <label class="size" for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div>
+                            <label class="size" for="retypePassword">Retype Password:</label>
+                            <input type="password" id="retypePassword" name="retypePassword" required>
+                        </div>
+                        <div>
+                            <button type="submit">Sign Up</button>
+                        </div>
+
+                        <p>Already have an account? <a href="#" id="showLoginForm">Login here</a></p>
                     </form>
                 </div>
             </div>
@@ -69,7 +112,7 @@
                     <input type="button" value="Explore Now">
                 </div>
                 <div class="travel_bx">
-                    <h4>Contries to travel</h4>
+                    <h4>Countries to travel</h4>
                     <div class="cards">
                         <div class="card">
                             <h3>NEPAL<img src="./images/360_F_107552252_hwWMQgc6GesgNGTFLBozFvo8p56feAPC.jpg" alt="">
@@ -108,7 +151,6 @@
                 </div>
             </div>
         </div>
-
     </header>
     <div class="offers">
         <h1>Best tour package offers</h1>
