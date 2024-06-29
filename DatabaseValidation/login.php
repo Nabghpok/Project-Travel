@@ -29,7 +29,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $_SESSION["first_name"] = $first_name;
 
                 // Redirect to welcome page
-                header("Location: welcome.php");
+                //header("refresh:2;url=../HTMLPages/index.php");
+                header("location:../HTMLPages/index.php");
                 exit();
             } else {
                 // Display an error message if the password is not valid
