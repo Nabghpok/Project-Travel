@@ -40,6 +40,8 @@
       float: right;
       width: 40%;
       margin-top: 50px;
+      margin-left: 50px;
+      transition: .5s linear;
      }
 
      /* Team Section */
