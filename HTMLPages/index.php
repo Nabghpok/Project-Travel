@@ -20,8 +20,8 @@ session_start();
             <h3>Global tour</h3>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="./aboutus.html">About us</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="../HTMLPages/about us/aboutus.html">About us</a></li>
+                <li><a href="../HTMLPages/contact us/contact.html">Contact</a></li>
                 <?php if (isset($_SESSION['username'])) : ?>
                     <li>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></li>
                     <li><a href="../DatabaseValidation/logout.php">Logout</a></li>
