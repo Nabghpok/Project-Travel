@@ -119,7 +119,8 @@ session_start();
                             </h3>
                             <img src="./images/360_F_239221224_ZspRhx9wK21O82bALOVfCJfH2ox2YgNx.jpg" alt="">
                             <div class="btn_city">
-                                <a href="./readmorefornepal.html">Read Now</a>
+                                <a href="./nepal/readmorefornepal.php">Read Now</a>
+                                <a href="./nepal/nepalhotelbooking.php">Book</a>
                                 <h5>Kathmandu<br><span>Rs20000</span></h5>
                             </div>
                         </div>
@@ -127,7 +128,8 @@ session_start();
                             <h3>UK<img src="./images/ukflag.png" alt=""></h3>
                             <img src="./images/tower bridge.jpeg" alt="">
                             <div class="btn_city">
-                                <a href="./readmoreforuk.html">Read Now</a>
+                                <a href="./uk/readmoreforuk.php">Read Now</a>
+                                <a href="./uk/ukhotelbooking.php">Book</a>
                                 <h5>London<br><span>$9000</span></h5>
                             </div>
                         </div>
@@ -135,7 +137,8 @@ session_start();
                             <h3>SINGAPORE<img src="./images/singaporeflag.png" alt=""></h3>
                             <img src="./images/singaporeplace.jpeg" alt="">
                             <div class="btn_city">
-                                <a href="./readmoreforsingapore.html">Read Now</a>
+                                <a href="./singapore/readmoreforsingapore.php">Read Now</a>
+                                <a href="./singapore/singaporehotelbooking.php">Book</a>
                                 <h5>Singapore<br><span>$7000</span></h5>
                             </div>
                         </div>
@@ -143,7 +146,8 @@ session_start();
                             <h3>SWITZERLAND<img src="./images/switzerlandflag.png" alt=""></h3>
                             <img src="./images/switzerlandplace.jpeg" alt="">
                             <div class="btn_city">
-                                <a href="./readmoreforswitzerland.html">Read Now</a>
+                                <a href="./switzerland/readmoreforswitzerland.php">Read Now</a>
+                                <a href="./switzerland/switzerlandhotelbooking.php">Book</a>
                                 <h5>Bern<br><span>$8000</span></h5>
                             </div>
                         </div>
@@ -169,7 +173,8 @@ session_start();
                             <i class="bi bi-chat-fill"><span>5000</span></i>
                         </div>
                         <div class="info_price">
-                            <a href="./moreinfospain.html">More Info</a>
+                            <a href="./spain/moreinfospain.php">More Info</a>
+                            <a href="./spain/spainhotelbooking.php">Book</a>
                             <h4>$3500</h4>
                         </div>
                     </div>
@@ -190,7 +195,8 @@ session_start();
                             <i class="bi bi-chat-fill"><span>4500</span></i>
                         </div>
                         <div class="info_price">
-                            <a href="./moreinfodubai.html">More Info</a>
+                            <a href="./dubai/moreinfodubai.php">More Info</a>
+                            <a href="./dubai/dubaihotelbooking.php">Book</a>
                             <h4>$2500</h4>
                         </div>
                     </div>
@@ -211,7 +217,8 @@ session_start();
                             <i class="bi bi-chat-fill"><span>5000</span></i>
                         </div>
                         <div class="info_price">
-                            <a href="./moreinfoegypt.html">More Info</a>
+                            <a href="./egypt/moreinfoegypt.php">More Info</a>
+                            <a href="./egypt/egypthotelbooking.php">Book</a>
                             <h4>$4000</h4>
                         </div>
                     </div>
@@ -228,11 +235,12 @@ session_start();
                 <div class="cont_bx">
                     <div class="price">
                         <div class="heart_chat">
-                            <i class="bi bi-heart-fill"><span>80000</span></i>
+                            <i class="bi bi-heart-fill"><span>80000</span>  AA</i>
                             <i class="bi bi-chat-fill"><span>5000</span></i>
                         </div>
                         <div class="info_price">
-                            <a href="./moreinfoindonesia.html">More Info</a>
+                            <a href="./indonesia/moreinfoindonesia.php">More Info</a>
+                            <a href="./indonesia/indonesiahotelbooking.php">Book</a>
                             <h4>$3500</h4>
                         </div>
                     </div>
@@ -255,7 +263,6 @@ session_start();
                 <li>Switzerland</li>
             </ul>
             <h5>Included:Air ticket, Hotel, Breakfast, tours and Airport transfer</h5>
-            <button>MORE INFO</button>
         </div>
         <div class="img_bx">
             <img src="./images/imgplane.jpeg" alt="">

@@ -110,3 +110,19 @@
   font-size: 1rem;
   color: #555;
 }
+
+
+/*Responsive*/
+@media screen and (max-width:1040px) 
+{
+
+  .content .left_text {
+      width: 60%;
+  }
+  content .right_img{
+    width: 300px;
+    height: 300px;
+  }
+
+
+}

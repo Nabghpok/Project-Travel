@@ -85,7 +85,7 @@
               <img src="./readmorenepalimage/readmorefornepalphoto3.jpeg" alt="" height="200" width="500px">
               <img src="./readmorenepalimage/readmorefornepalphoto4.jpeg" alt="" height="200" width="500px">
               <img src="./readmorenepalimage/readmorefornepalphoto5.jpeg" alt="" height="200" width="500px">>
-              <img src="./readmorenepalimage/readmorefornepalphoto.jpeg" alt="" height="200" width="500px">
+              <img src="./readmorenepalimage/readmorefornepalphoto6.jpeg" alt="" height="200" width="500px">
             </div>
         </section>
      </nav>

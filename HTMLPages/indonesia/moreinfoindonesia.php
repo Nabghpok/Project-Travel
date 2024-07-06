@@ -68,6 +68,7 @@
               <img src="./moreinfoindonesiaimage/moreinfoindonesiaphoto3.jpeg" alt="" height="200" width="450px">
               <img src="./moreinfoindonesiaimage/moreinfoindonesiaphoto4.jpeg" alt="" height="200" width="450px">
               <img src="./moreinfoindonesiaimage/moreinfoindonesiaphoto5.jpeg" alt="" height="200" width="0px">>
+              <img src="./moreinfoindonesiaimage/moreinfoindonesiaphoto6.jpeg" alt="" height="200" width="0px">>
             </div>
         </section>
      </nav>
