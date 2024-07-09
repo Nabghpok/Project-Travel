@@ -1,0 +1,39 @@
+[
+  {
+    "location": "Nepal",
+    "date": "2024-08-01",
+    "people": 2,
+    "available_packages": [
+      {
+        "name": "Kathmandu Tour",
+        "price": 20000
+      },
+      {
+        "name": "Pokhara Adventure",
+        "price": 25000
+      }
+    ]
+  },
+  {
+    "location": "UK",
+    "date": "2024-09-15",
+    "people": 4,
+    "available_packages": [
+      {
+        "name": "London City Tour",
+        "price": 9000
+      }
+    ]
+  },
+  {
+    "location": "Singapore",
+    "date": "2024-07-20",
+    "people": 3,
+    "available_packages": [
+      {
+        "name": "Singapore Zoo Experience",
+        "price": 7000
+      }
+    ]
+  }
+]

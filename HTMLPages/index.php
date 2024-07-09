@@ -1,7 +1,6 @@
 <?php
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -94,23 +93,31 @@ session_start();
             </div>
 
             <div class="trip_bx">
-                <div class="search_bx">
-                    <div class="card">
-                        <h4>Location<i class="bi bi-caret-down-fill"></i></h4>
-                        <input type="text" placeholder=" Enter your destination">
-                    </div>
+                <?php if (isset($_SESSION['message'])) : ?>
+                    <p><?php echo $_SESSION['message'];
+                        unset($_SESSION['message']); ?></p>
+                <?php endif; ?>
 
-                    <div class="card">
-                        <h4>Date<i class="bi bi-caret-down-fill"></i></h4>
-                        <input type="date">
-                    </div>
+                <form id="searchForm">
+                    <div class="search_bx">
+                        <div class="card">
+                            <h4>Location<i class="bi bi-caret-down-fill"></i></h4>
+                            <input type="text" name="location" placeholder="Enter your destination" required>
+                        </div>
 
-                    <div class="card">
-                        <h4>People</h4>
-                        <input type="number" placeholder="How many people?">
+                        <div class="card">
+                            <h4>Date<i class="bi bi-caret-down-fill"></i></h4>
+                            <input type="date" name="date" required>
+                        </div>
+
+                        <div class="card">
+                            <h4>People</h4>
+                            <input type="number" name="people" placeholder="How many people?" required>
+                        </div>
+                        <input type="submit" value="Explore Now">
                     </div>
-                    <input type="button" value="Explore Now">
-                </div>
+                </form>
+                <div id="searchResults"></div>
                 <div class="travel_bx">
                     <h4>Countries to travel</h4>
                     <div class="cards">
@@ -233,39 +240,35 @@ session_start();
                         </div>
                         <div class="info_price">
                             <a href="./moreinfoindonesia.html">More Info</a>
-                            <h4>$3500</h4>
+                            <h4>$3500</ </div>
                         </div>
+                        <div class="days"> 10 Days<br>Indonesia</div>
                     </div>
-                    <div class="days"> 10 Days<br>Indonesia</div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="destination">
-        <div class="des_bx">
-            <h4>Our Destination</h4>
-            <p>Choose your next Destination</p>
-            <ul>
-                <li>Uk</li>
-                <li>Spain</li>
-                <li>Dubai</li>
-                <li>Indonesia</li>
-                <li>Singapore</li>
-                <li>Egypt</li>
-                <li>Switzerland</li>
-            </ul>
-            <h5>Included:Air ticket, Hotel, Breakfast, tours and Airport transfer</h5>
-            <button>MORE INFO</button>
+        <div class="destination">
+            <div class="des_bx">
+                <h4>Our Destination</h4>
+                <p>Choose your next Destination</p>
+                <ul>
+                    <li>Uk</li>
+                    <li>Spain</li>
+                    <li>Dubai</li>
+                    <li>Indonesia</li>
+                    <li>Singapore</li>
+                    <li>Egypt</li>
+                    <li>Switzerland</li>
+                </ul>
+                <h5>Included:Air ticket, Hotel, Breakfast, tours and Airport transfer</h5>
+                <button>MORE INFO</button>
+            </div>
+            <div class="img_bx">
+                <img src="./images/imgplane.jpeg" alt="">
+            </div>
         </div>
-        <div class="img_bx">
-            <img src="./images/imgplane.jpeg" alt="">
-        </div>
 
-    </div>
-
-
-
-    <script src="index.js"></script>
+        <script src="index.js"></script>
 </body>
 
 </html>
