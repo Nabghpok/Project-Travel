@@ -129,12 +129,12 @@
     </header>
     <nav class="nav">
         <ul>
-            <li><a href="#">CHAT WITH US</a></li>
+            <li><a href="../contact us/contactus.php">CONTACT US</a></li>
             <li><a href="#">TAILORED EXPERIENCES</a></li>
-            <li><a href="#">DESTINATIONS</a></li>
+            <!-- <li><a href="#">DESTINATIONS</a></li>
             <li><a href="#">PRIVATE RENTALS</a></li>
-            <li><a href="#">NEWS & PRESS</a></li>
-            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">NEWS & PRESS</a></li> -->
+            <li><a href="../about us/aboutus.php">ABOUT US</a></li>
         </ul>
     </nav>
     <main class="main">

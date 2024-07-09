@@ -20,7 +20,7 @@ session_start();
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="../HTMLPages/about us/aboutus.php">About us</a></li>
-                <li><a href="../HTMLPages/contact us/contactustestandcss.html">Contact</a></li>
+                <li><a href="../HTMLPages/contact us/contactustestandcs.php">Contact</a></li>
                 <?php if (isset($_SESSION['username'])) : ?>
                     <li>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></li>
                     <li><a href="../DatabaseValidation/logout.php">Logout</a></li>

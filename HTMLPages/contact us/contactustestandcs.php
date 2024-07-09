@@ -1,3 +1,4 @@
+<?php include '../Globalheader/header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -118,15 +119,15 @@
     </div>
 
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function (event) {
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
             event.preventDefault();
 
             const formData = new FormData(this);
 
             fetch('contactustestandcss.php', {
-                method: 'POST',
-                body: formData
-            })
+                    method: 'POST',
+                    body: formData
+                })
                 .then(response => response.json())
                 .then(data => {
                     alert(data.message);
@@ -141,5 +142,6 @@
         });
     </script>
 </body>
+<?php include '../global footer/footer.php'; ?>
 
 </html>

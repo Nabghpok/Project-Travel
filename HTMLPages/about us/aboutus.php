@@ -98,4 +98,5 @@
         </section>
 
     </nav>
+    <?php include '../global footer/footer.php'; ?>
 </body>
