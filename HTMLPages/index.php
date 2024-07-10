@@ -121,7 +121,7 @@ session_start();
                             <div class="btn_city">
                                 <a href="./nepal/readmorefornepal.php">Read Now</a>
                                 <a href="./nepal/nepalhotelbooking.php">Book</a>
-                                <h5>Kathmandu<br><span>Rs20000</span></h5>
+                                <h5>Kathmandu</h5>
                             </div>
                         </div>
                         <div class="card">
@@ -130,7 +130,7 @@ session_start();
                             <div class="btn_city">
                                 <a href="./uk/readmoreforuk.php">Read Now</a>
                                 <a href="./uk/ukhotelbooking.php">Book</a>
-                                <h5>London<br><span>$9000</span></h5>
+                                <h5>London</h5>
                             </div>
                         </div>
                         <div class="card">
@@ -139,7 +139,7 @@ session_start();
                             <div class="btn_city">
                                 <a href="./singapore/readmoreforsingapore.php">Read Now</a>
                                 <a href="./singapore/singaporehotelbooking.php">Book</a>
-                                <h5>Singapore<br><span>$7000</span></h5>
+                                <h5>Singapore</h5>
                             </div>
                         </div>
                         <div class="card">
@@ -148,7 +148,7 @@ session_start();
                             <div class="btn_city">
                                 <a href="./switzerland/readmoreforswitzerland.php">Read Now</a>
                                 <a href="./switzerland/switzerlandhotelbooking.php">Book</a>
-                                <h5>Bern<br><span>$8000</span></h5>
+                                <h5>Bern</h5>
                             </div>
                         </div>
                     </div>
@@ -175,7 +175,7 @@ session_start();
                         <div class="info_price">
                             <a href="./spain/moreinfospain.php">More Info</a>
                             <a href="./spain/spainhotelbooking.php">Book</a>
-                            <h4>$3500</h4>
+                            
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Spain</div>
@@ -197,7 +197,7 @@ session_start();
                         <div class="info_price">
                             <a href="./dubai/moreinfodubai.php">More Info</a>
                             <a href="./dubai/dubaihotelbooking.php">Book</a>
-                            <h4>$2500</h4>
+                            
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Dubai</div>
@@ -219,7 +219,7 @@ session_start();
                         <div class="info_price">
                             <a href="./egypt/moreinfoegypt.php">More Info</a>
                             <a href="./egypt/egypthotelbooking.php">Book</a>
-                            <h4>$4000</h4>
+                            
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Egypt</div>
@@ -235,13 +235,13 @@ session_start();
                 <div class="cont_bx">
                     <div class="price">
                         <div class="heart_chat">
-                            <i class="bi bi-heart-fill"><span>80000</span>  AA</i>
+                            <i class="bi bi-heart-fill"><span>80000</span></i>
                             <i class="bi bi-chat-fill"><span>5000</span></i>
                         </div>
                         <div class="info_price">
                             <a href="./indonesia/moreinfoindonesia.php">More Info</a>
                             <a href="./indonesia/indonesiahotelbooking.php">Book</a>
-                            <h4>$3500</h4>
+                         
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Indonesia</div>

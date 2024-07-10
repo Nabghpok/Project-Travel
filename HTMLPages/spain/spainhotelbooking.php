@@ -22,7 +22,7 @@
             </div>
             <div class="right_img">
               <img src="./moreinfospainimage/spainhotelbooking1.jpg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="spainhotel1.php">Click</a>
              </div>
 
         </section>
@@ -45,7 +45,7 @@
             </div>
             <div class="right_img">
               <img src="./moreinfospainimage/spainhotelbooking2.jpg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="spainhotel2.php">Click</a>
              </div>
         </section>
 

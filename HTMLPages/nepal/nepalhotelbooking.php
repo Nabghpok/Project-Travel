@@ -21,7 +21,7 @@
             </div>
             <div class="right_img">
               <img src="./readmorenepalimage/cityhotel.jpeg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="./citybook.php">Click</a>
              </div>
 
         </section>
@@ -41,7 +41,7 @@
             </div>
             <div class="right_img">
               <img src="./readmorenepalimage/solteehotel.jpeg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="./solteebook.php">Click</a>
              </div>
         </section>
 

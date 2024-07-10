@@ -23,7 +23,7 @@
             </div>
             <div class="right_img">
               <img src="./readmoreswitzerlandimage/switzerlandhotelbooking1.jpg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="switzerlandhotel1.php">Click</a>
              </div>
 
         </section>
@@ -42,7 +42,7 @@
             </div>
             <div class="right_img">
               <img src="./readmoreswitzerlandimage/switzerlandhotelbooking2.jpg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="switzerlandhotel2.php">Click</a>
              </div>
         </section>
 

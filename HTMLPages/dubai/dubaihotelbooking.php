@@ -18,7 +18,7 @@
             </div>
             <div class="right_img">
               <img src="./moreinfodubaiimage/dubaihotelbooking1.jpg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="dubaihotel1.php">Click</a>
              </div>
 
         </section>
@@ -35,7 +35,7 @@
             </div>
             <div class="right_img">
               <img src="./moreinfodubaiimage/dubaihotelbooking2.jpg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="dubaihotel2.php">Click</a>
              </div>
         </section>
 

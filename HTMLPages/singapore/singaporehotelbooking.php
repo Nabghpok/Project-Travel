@@ -20,7 +20,7 @@
             </div>
             <div class="right_img">
               <img src="./readmoresingaporeimage/singaporehotelbooking1.jpeg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="singaporehotel1.php">Click</a>
              </div>
 
         </section>
@@ -40,7 +40,7 @@
             </div>
             <div class="right_img">
               <img src="./readmoresingaporeimage/singaporehotelbooking2.jpeg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="singaporehotel2.php">Click</a>
              </div>
         </section>
 

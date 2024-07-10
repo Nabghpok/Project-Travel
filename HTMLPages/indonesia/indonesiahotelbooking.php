@@ -18,7 +18,7 @@
             </div>
             <div class="right_img">
               <img src="./moreinfoindonesiaimage/indonesiahotelbooking1.jpg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="indonesiahotel1.php">Click</a>
              </div>
 
         </section>
@@ -35,7 +35,7 @@
             </div>
             <div class="right_img">
               <img src="./moreinfoindonesiaimage/indonesiahotelbooking2.jpg" alt="" height="200" width="500px">
-              <a href="">Book</a>
+              <a href="indonesiahotel2.php">Click</a>
              </div>
         </section>
 
