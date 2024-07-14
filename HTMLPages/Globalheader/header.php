@@ -133,8 +133,8 @@ session_start();
         <span class="menu-toggle">&#9776;</span>
         <ul class="nav">
             <li><a href="../index.php">Home</a></li>
-            <li><a href="../destinations/destinations.php">Destinations</a></li>
-            <li><a href="../contact us/contact.php">Contact Us</a></li>
+            <li><a href="../about us/aboutus.php">About US</a></li>
+            <li><a href="../contact us/contactustestandcs.php">Contact Us</a></li>
             <li class="btn-container">
                 <?php if (isset($_SESSION['user_id'])) : ?>
                     <button onclick="window.location.href='../../logout/logout.php'">Logout</button>

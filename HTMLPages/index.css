@@ -58,7 +58,7 @@ header .content::before {
   position: absolute;
   width: 100%;
   height: 80%;
-  background-image: url('./images/backgroundphoto2.jpeg');
+  background-image: url('./images/5k-5120x2880-lake-nepal-tilicho-wallpaper-preview.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -238,445 +238,429 @@ header .trip_bx .travel_bx .cards .card .btn_city a {
 header .trip_bx .travel_bx .cards .card .btn_city a:hover {
   background: gray;
 }
-header .trip_bx .travel_bx .cards .card .btn_city h5 {
-    font-size: 11px;
-    font-weight: 800;
-    margin: 0px;
-    margin-top: 2px;
-    line-height: 10px;
-  }
-  
-  header .trip_bx .travel_bx .cards .card .btn_city h5 span {
-    font-size: 13px;
-    font-weight: 800;
-  }
-  
-  .search_bx {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60%;
-    height: 60px;
-    margin: 10px;
-    padding: 0px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 10px 25px rgb(4, 155, 155);
-    z-index: 1;
-  }
-  
-  .offers {
-    width: 60%;
-    height: auto;
-    margin: auto;
-    margin-top: 100px;
-    transition: .3s linear;
-  
-  }
-  
-  .offers h1 {
-    font-weight: 600;
-    text-align: center;
-    margin: 0;
-  }
-  
-  .offers p {
-    font-weight: 500;
-    text-align: center;
-    margin: 0;
-  
-  }
-  
-  .offers .cards {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    align-items: center;
-  
-  
-  }
-  
-  .offers .cards.card {
-    /* position: relative; */
-    width: 200px;
-    height: 350px;
-    margin: 5px auto;
-  
-    margin: 100px;
-  
-  
-  
-  }
-  
-  .offers .cards .card h3 {
-    width: 140px;
-    padding: 6px 0px;
-    background: rgb(165, 243, 165);
-    border-radius: 20px;
-    font-size: 12px;
-    display: grid;
-    place-items: center;
-    margin: auto;
-  }
-  
-  .offers .cards .card .img_text {
-    position: relative;
-    width: 100%;
-    height: 250px;
-  
-  }
-  
-  .offers .cards .card .img_text img {
-    position: relative;
-    width: 250px;
-    height: 100%;
-    margin-top: 5px;
-    border-radius: 10px 10px 0px 0px;
-  
-  
-  }
-  
-  .offers .cards .card .img_text h4 {
-    position: absolute;
-    font-weight: 800;
-    font-size: 13px;
-    padding: 10px 15px;
-    bottom: 0;
-    margin: 0;
-    color: #000;
-  
-  }
-  
-  .offers .cards .card .img_text h4::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgb(255, 255, 255, .1);
-    backdrop-filter: blur(5px);
-    z-index: -1;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .offers .cards .card .cont_bx {
-    width: 99%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid rgb(231, 215, 215);
-    padding: 5px 0px;
-    border-radius: 0px 0px 5px 5px;
-  }
-  
-  .offers .cards .card .cont_bx .price,
-  .days {
-    margin: 0px 8px;
-  }
-  
-  .offers .cards .card .cont_bx .price .heart_chat {
-    display: flex;
-    align-items: center;
-  }
-  
-  .offers .cards .card .cont_bx .price .heart_chat i:nth-child(1) {
-    color: red;
-    font-size: 13px;
-    margin-right: 10px;
-  }
-  
-  .offers .cards .card .cont_bx .price .heart_chat span {
-    color: black;
-    font-size: 12px;
-    margin-left: 3px;
-    font-style: normal;
-  }
-  
-  .offers .cards .card .cont_bx .price .heart_chat i:nth-child(2) {
-    color: rgb(112, 196, 229);
-    font-size: 13px;
-    margin-right: 10px;
-  }
-  
-  .offers .cards .card .cont_bx .price .info_price {
-    display: flex;
-    align-items: center;
-    margin-top: 3px;
-  }
-  
-  .offers .cards .card .cont_bx .price .info_price a {
-    text-decoration: none;
-    color: #000;
-    font-size: 12px;
-    font-weight: 700;
-    transition: .3s linear;
-    margin-right: 13px;
-  }
-  
-  .offers .cards .card .cont_bx .price .info_price a:hover {
-    color: grey;
-  }
-  
-  .offers .cards .card .cont_bx .price .info_price h4 {
-    margin: 0;
-    font-size: 13px;
-  }
-  
-  .offers .cards .card .cont_bx .days {
-    color: #fff;
-    background: #000;
-    font-size: 8px;
-    border-radius: 50%;
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
-    transition: .3s linear;
-  }
-  
-  .offers .cards .card .cont_bx .days {
-    color: #fff;
-    background: #000;
-    font-size: 10px;
-    border-radius: 50%;
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
-    transition: .3s linear;
-  }
-  
-  .offers .cards .card .cont_bx .days:hover {
-    transform: rotate(360deg);
-  }
-  
-  .destination {
-    width: 45%;
-    height: auto;
-    /*border: 1px solid #000; */
-    margin: auto;
-    margin-top: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  
-  .destination .des_bx, .img_bx {
-    position: relative;
-    width: 50%;
-    height: auto;
-    /*border: 1px solid #000;*/
-  }
-  
-  .destination .des_bx h4 {
-    margin: 0;
-    font-size: 20px;
-    color: #000;
-    line-height: 10px;
-    letter-spacing: 1px;
-  }
-  
-  .destination .des_bx p {
-    font-size: 15px;
-  
-  }
-  .destination .des_bx li {
-    list-style-type: none;
-    padding: 0px 0px 8px 0px;
-    font-size: 12px;
-    font-weight: 550;
-  
-  }
-  
-  .destination .des_bx h5 {
-    width: 250px;
-    font-size: 12px;
-    font-weight: 550;
-    margin: 20px 0px;
-  }
-  
-  .destination .des_bx button {
-    font-size: 12px;
-    padding: 8px 15px;
-    border-radius: 20px;
-    background: #000;
-    color: #fff;
-    border: 2px solid #000;
-    cursor: pointer;
-    transition: .3s linear;
-  
-  }
-  
-  .destination .des_bx button:hover {
-    background: gray;
-    border: 2px solid gray;
-  }
-  
-  
-  .destination .img_bx img {
-    width: 100%;
-    height: 100%;
-    border: 5px;
-  }
-  
-  .destination .img_bx .msg {
-    position: absolute;
-  }
-  
-  /* popup test */
-  
-  /* styles.css */
-  
-  /* Popup container - can be anything you want */
-  
-  
-  
-  
-  header {
-    background-color: transparent;
-    /* Keep header background transparent */
-    /* color: #333;*/
-    /* Set text color */
-    /* padding: 10px 20px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    */
-  
-  }
-  
-  header button#toggleLoginSignup {
-    background-color: #5cb85c;
-    /* Green background color */
-    color: white;
-    /* White text color */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .popup {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    /* Ensure it appears above other elements */
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
-    /* This blurs the background */
-  }
-  
-  .popup-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 600px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    z-index: 1001;
-    /* Ensure the content is above the backdrop */
-  }
-  
-  .popup-content form {
-    display: none;
-    /* Hide forms by default */
-  }
-  
-  .popup-content form.active {
-    display: block;
-    /* Display active form */
-  }
-  
-  .close-btn {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-  }
-  
-  .close-btn:hover,
-  .close-btn:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form label {
-    margin: 10px 0 5px;
-  }
-  
-  form input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  form button {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #5cb85c;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  form button:hover {
-    background-color: #4cae4c;
-  }
-  
-  form p {
-    margin-top: 10px;
-    text-align: center;
-  }
-  
-  form p a {
-    color: #5cb85c;
-    text-decoration: none;
-  }
-  
-  form p a:hover {
-    text-decoration: underline;
-  }
-  
-  /* popup test */
-  /* responsive design */
-  
-  @media screen and (max-width:1022px) {
-    .offers .cards {
-      display: block;
-     
-    }
-    
-  }
 
-  @media screen and (max-width:760px) {
-    header .trip_bx .travel_bx .cards {
-      margin: 2px;
-      display: block;
-    
-    }
-    
-  }
-  
+header .trip_bx .travel_bx .cards .card .btn_city h5 {
+  font-size: 11px;
+  font-weight: 800;
+  margin: 0px;
+  margin-top: 2px;
+  line-height: 10px;
+}
+
+header .trip_bx .travel_bx .cards .card .btn_city h5 span {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.search_bx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 60px;
+  margin: 10px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 10px 25px rgb(4, 155, 155);
+  z-index: 1;
+}
+
+.offers {
+  width: 100%;
+  height: auto;
+
+  margin: auto;
+  margin-top: 100px;
+
+}
+
+.offers h1 {
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+.offers p {
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+.offers .cards {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+
+
+}
+
+.offers .cards.card {
+  /* position: relative; */
+  width: 200px;
+  height: 350px;
+  margin: 5px auto;
+
+  margin: 100px;
+
+
+
+}
+
+.offers .cards .card h3 {
+  width: 140px;
+  padding: 6px 0px;
+  background: rgb(165, 243, 165);
+  border-radius: 20px;
+  font-size: 12px;
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+
+.offers .cards .card .img_text {
+  position: relative;
+  width: 100%;
+  height: 250px;
+
+}
+
+.offers .cards .card .img_text img {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  margin-top: 5px;
+  border-radius: 10px 10px 0px 0px;
+
+
+}
+
+.offers .cards .card .img_text h4 {
+  position: absolute;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 10px 15px;
+  bottom: 0;
+  margin: 0;
+  color: #000;
+
+}
+
+.offers .cards .card .img_text h4::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255, .1);
+  backdrop-filter: blur(5px);
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+}
+
+.offers .cards .card .cont_bx {
+  width: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(231, 215, 215);
+  padding: 5px 0px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.offers .cards .card .cont_bx .price,
+.days {
+  margin: 0px 8px;
+}
+
+.offers .cards .card .cont_bx .price .heart_chat {
+  display: flex;
+  align-items: center;
+}
+
+.offers .cards .card .cont_bx .price .heart_chat i:nth-child(1) {
+  color: red;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.offers .cards .card .cont_bx .price .heart_chat span {
+  color: black;
+  font-size: 12px;
+  margin-left: 3px;
+  font-style: normal;
+}
+
+.offers .cards .card .cont_bx .price .heart_chat i:nth-child(2) {
+  color: rgb(112, 196, 229);
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.offers .cards .card .cont_bx .price .info_price {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.offers .cards .card .cont_bx .price .info_price a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  transition: .3s linear;
+  margin-right: 13px;
+}
+
+.offers .cards .card .cont_bx .price .info_price a:hover {
+  color: grey;
+}
+
+.offers .cards .card .cont_bx .price .info_price h4 {
+  margin: 0;
+  font-size: 13px;
+}
+
+.offers .cards .card .cont_bx .days {
+  color: #fff;
+  background: #000;
+  font-size: 8px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.offers .cards .card .cont_bx .days {
+  color: #fff;
+  background: #000;
+  font-size: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.offers .cards .card .cont_bx .days:hover {
+  transform: rotate(360deg);
+}
+
+.destination {
+  width: 45%;
+  height: auto;
+  /*border: 1px solid #000;*/
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.destination .des_bx,
+.img_bx {
+  position: relative;
+  width: 50%;
+  height: auto;
+  /*border: 1px solid #000;*/
+}
+
+.destination .des_bx h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+  line-height: 10px;
+  letter-spacing: 1px;
+}
+
+.destination .des_bx p {
+  font-size: 15px;
+
+}
+
+.destination .des_bx li {
+  list-style-type: none;
+  padding: 0px 0px 8px 0px;
+  font-size: 12px;
+  font-weight: 550;
+
+}
+
+.destination .des_bx h5 {
+  width: 250px;
+  font-size: 12px;
+  font-weight: 550;
+  margin: 20px 0px;
+}
+
+.destination .des_bx button {
+  font-size: 12px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: .3s linear;
+
+}
+
+.destination .des_bx button:hover {
+  background: gray;
+  border: 2px solid gray;
+}
+
+
+.destination .img_bx img {
+  width: 100%;
+  height: 100%;
+  border: 5px;
+}
+
+.destination .img_bx .msg {
+  position: absolute;
+}
+
+/* popup test */
+
+/* styles.css */
+
+/* Popup container - can be anything you want */
+
+
+
+
+header {
+  background-color: transparent;
+  /* Keep header background transparent */
+  /* color: #333;*/
+  /* Set text color */
+  /* padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  */
+
+}
+
+header button#toggleLoginSignup {
+  background-color: #5cb85c;
+  /* Green background color */
+  color: white;
+  /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  /* Ensure it appears above other elements */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  /* This blurs the background */
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  /* Ensure the content is above the backdrop */
+}
+
+.popup-content form {
+  display: none;
+  /* Hide forms by default */
+}
+
+.popup-content form.active {
+  display: block;
+  /* Display active form */
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5cb85c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4cae4c;
+}
+
+form p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+form p a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+form p a:hover {
+  text-decoration: underline;
+}
+
+/* popup test */
+/* responsive design */
