@@ -26,7 +26,7 @@
         </section>
 
 
-        <section class="contentes">
+        <section class="contents">
             <h2 class="heading">Singapore Marriott Tang Plaza Hotel</h2>
             <div class="left_text">
                 <p>

@@ -1,3 +1,4 @@
+<?php include '../Globalheader/header.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,10 +45,7 @@
 				<label for="departure-date" class="label">Departure Date:</label>
 				<input type="date" id="departure-date" class="input-field">
 			</div>
-			<div class="form-group">
-				<label for="return-date" class="label">Return Date:</label>
-				<input type="date" id="return-date" class="input-field">
-			</div>
+			
 			<div class="form-group">
 				<label for="ticket-type" class="label">Ticket Type:</label>
 				<select id="ticket-type" class="input-field">
@@ -65,4 +63,5 @@
 		</form>
 	</div>
 </body>
+
 </html>

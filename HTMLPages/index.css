@@ -58,7 +58,7 @@ header .content::before {
   position: absolute;
   width: 100%;
   height: 80%;
-  background-image: url('./images/5k-5120x2880-lake-nepal-tilicho-wallpaper-preview.jpg');
+  background-image: url('./images/backgroundimage2.jpeg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -664,3 +664,97 @@ form p a:hover {
 
 /* popup test */
 /* responsive design */
+
+
+/* Media Queries for Responsiveness */
+
+/* Extra Small Devices, Phones (less than 576px) */
+@media (max-width: 575.98px) {
+  header nav ul {
+    display: none;
+  }
+
+  header nav .bi-three-dots {
+    display: block;
+    font-size: 24px;
+  }
+
+  header .content .cont_box {
+    width: 100%;
+    padding: 10px;
+  }
+
+  header .trip_bx .travel_bx .cards {
+    flex-direction: column;
+  }
+
+  .offers .cards {
+    flex-direction: column;
+  }
+
+  .offers .cards .card {
+    width: 100%;
+  }
+
+}
+
+/* Small Devices, Tablets (576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header .content .cont_box {
+    width: 80%;
+    padding: 20px;
+  }
+
+  header .trip_bx .travel_bx .cards {
+    flex-direction: column;
+  }
+
+  .offers .cards {
+    flex-direction: column;
+  }
+
+  .offers .cards .card {
+    width: 80%;
+  }
+
+}
+
+/* Medium Devices, Desktops (768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header .content .cont_box {
+    width: 60%;
+  }
+
+  header .trip_bx .travel_bx .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  header .trip_bx .travel_bx .cards .card {
+    width: 48%;
+    margin: 1%;
+  }
+
+  .offers .cards .card {
+    width: 45%;
+  }
+
+
+}
+
+/* Large Devices, Wide Screens (992px and up) */
+@media (min-width: 992px) {
+  header .content .cont_box {
+    width: 50%;
+  }
+
+  header .trip_bx .travel_bx .cards .card {
+    width: 23%;
+  }
+
+  .offers .cards .card {
+    width: 22%;
+  }
+
+
+}

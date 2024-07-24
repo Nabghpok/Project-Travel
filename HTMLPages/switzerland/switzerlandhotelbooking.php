@@ -22,14 +22,14 @@
 
             </div>
             <div class="right_img">
-              <img src="./readmoreswitzerlandimage/switzerlandhotelbooking1.jpg" alt="" height="200" width="500px">
+              <img src="./readmoreswitzerlandimage/switzerlandhotelbooking1.jpeg" alt="" height="200" width="500px">
               <a href="switzerlandhotel1.php">Click</a>
              </div>
 
         </section>
 
 
-        <section class="contentes">
+        <section class="contents">
             <h2 class="heading">Art Deco Hotel Montana</h2>
             <div class="left_text">
                 <p>
@@ -41,7 +41,7 @@
 
             </div>
             <div class="right_img">
-              <img src="./readmoreswitzerlandimage/switzerlandhotelbooking2.jpg" alt="" height="200" width="500px">
+              <img src="./readmoreswitzerlandimage/switzerlandhotelbooking2.jpeg" alt="" height="200" width="500px">
               <a href="switzerlandhotel2.php">Click</a>
              </div>
         </section>

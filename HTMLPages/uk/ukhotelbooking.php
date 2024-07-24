@@ -19,14 +19,14 @@
 
             </div>
             <div class="right_img">
-              <img src="./readmoreukimage/amenitiesbooking.jpg" alt="" height="200" width="500px">
+              <img src="./readmoreukimage/amenitiesbooking.jpeg" alt="" height="200" width="500px">
               <a href="./hotel1.php">Click</a>
              </div>
 
         </section>
 
 
-        <section class="contentes">
+        <section class="contents">
             <h2 class="heading">Mandarin Oriental</h2>
             <div class="left_text">
                 <p>

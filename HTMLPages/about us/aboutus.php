@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="aboutus.css">
+  <link rel="stylesheet" href="aboutus.css">
     <!-- <link rel="stylesheet" href="mediaabout.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
@@ -13,6 +13,7 @@
         <section class="content">
             <h2 class="heading">About Us</h2>
             <hr class="line">
+            <div class="test">
             <div class="left_text">
                 <p>
                     Global tour and travel Pvt. Ltd. is a leading online tour, trek and travel
@@ -31,6 +32,7 @@
             </div>
             <div class="right_img">
                 <img src="images (1).jpeg" alt="" height="365" width="500px">
+            </div>
             </div>
         </section>
 

@@ -21,14 +21,14 @@
 
             </div>
             <div class="right_img">
-              <img src="./moreinfospainimage/spainhotelbooking1.jpg" alt="" height="200" width="500px">
+              <img src="./moreinfospainimage/spainhotelbooking1.jpeg" alt="" height="200" width="500px">
               <a href="spainhotel1.php">Click</a>
              </div>
 
         </section>
 
 
-        <section class="contentes">
+        <section class="contents">
             <h2 class="heading">Casa Camper Hotel Barcelona</h2>
             <div class="left_text">
                 <p>
@@ -44,7 +44,7 @@
 
             </div>
             <div class="right_img">
-              <img src="./moreinfospainimage/spainhotelbooking2.jpg" alt="" height="200" width="500px">
+              <img src="./moreinfospainimage/spainhotelbooking2.jpeg" alt="" height="200" width="500px">
               <a href="spainhotel2.php">Click</a>
              </div>
         </section>

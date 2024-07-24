@@ -17,14 +17,14 @@
 
             </div>
             <div class="right_img">
-              <img src="./moreinfoindonesiaimage/indonesiahotelbooking1.jpg" alt="" height="200" width="500px">
+              <img src="./moreinfoindonesiaimage/indonesiahotelbooking1.jpeg" alt="" height="200" width="500px">
               <a href="indonesiahotel1.php">Click</a>
              </div>
 
         </section>
 
 
-        <section class="contentes">
+        <section class="contents">
             <h2 class="heading">The Seminyak Beach Resort & Spa</h2>
             <div class="left_text">
                 <p>
@@ -34,7 +34,7 @@
 
             </div>
             <div class="right_img">
-              <img src="./moreinfoindonesiaimage/indonesiahotelbooking2.jpg" alt="" height="200" width="500px">
+              <img src="./moreinfoindonesiaimage/indonesiahotelbooking2.jpeg" alt="" height="200" width="500px">
               <a href="indonesiahotel2.php">Click</a>
              </div>
         </section>

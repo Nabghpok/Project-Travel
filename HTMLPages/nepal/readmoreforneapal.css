@@ -1,0 +1,110 @@
+/* General styles for About Us section */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 30px 50px 20px 50px;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.line {
+  width: 20%;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 50px;
+}
+
+.content-body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.left_text {
+  flex: 1;
+  margin-right: 30px;
+  line-height: 25px;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.right_img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 0 1 40%;
+  margin-top: 50px;
+}
+
+.right_img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .content-body {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .left_text {
+      margin-right: 0;
+      margin-bottom: 30px;
+  }
+
+  .right_img {
+      width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+      padding: 20px;
+  }
+
+  .heading {
+      font-size: 35px;
+  }
+
+  .left_text {
+      font-size: 16px;
+  }
+
+  .right_img {
+      gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+      font-size: 30px;
+  }
+
+  .line {
+      width: 30%;
+  }
+
+  .left_text {
+      font-size: 14px;
+      padding: 15px;
+  }
+
+  .right_img {
+      gap: 5px;
+  }
+}

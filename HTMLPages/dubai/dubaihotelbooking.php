@@ -17,14 +17,14 @@
 
             </div>
             <div class="right_img">
-              <img src="./moreinfodubaiimage/dubaihotelbooking1.jpg" alt="" height="200" width="500px">
+              <img src="./moreinfodubaiimage/dubaihotelbooking1.jpeg" alt="" height="200" width="500px">
               <a href="dubaihotel1.php">Click</a>
              </div>
 
         </section>
 
 
-        <section class="contentes">
+        <section class="contents">
             <h2 class="heading">Marco Polo Hotel</h2>
             <div class="left_text">
                 <p>
@@ -34,7 +34,7 @@
 
             </div>
             <div class="right_img">
-              <img src="./moreinfodubaiimage/dubaihotelbooking2.jpg" alt="" height="200" width="500px">
+              <img src="./moreinfodubaiimage/dubaihotelbooking2.jpeg" alt="" height="200" width="500px">
               <a href="dubaihotel2.php">Click</a>
              </div>
         </section>

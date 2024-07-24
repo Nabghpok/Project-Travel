@@ -2,8 +2,10 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./nepalhotelbooking.css">
+ <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="nepalhotelbooking.css">
 </head>
 <body>
      <nav>
@@ -27,7 +29,7 @@
         </section>
 
 
-        <section class="contentes">
+        <section class="contents-alt">
             <h2 class="heading">soltee hotel</h2>
             <div class="left_text">
                 <p>
