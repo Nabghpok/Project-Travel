@@ -126,7 +126,7 @@ session_start();
                             </h3>
                             <img src="./images/360_F_239221224_ZspRhx9wK21O82bALOVfCJfH2ox2YgNx.jpg" alt="">
                             <div class="btn_city">
-                                <a href="./readmorefornepal.html">Read Now</a>
+                                <a href="../HTMLPages/posts/readmorefornepal.php">Read Now</a>
                                 <h5>Kathmandu<br><span>Rs20000</span></h5>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ session_start();
                             <h3>UK<img src="./images/ukflag.png" alt=""></h3>
                             <img src="./images/tower bridge.jpeg" alt="">
                             <div class="btn_city">
-                                <a href="./readmoreforuk.html">Read Now</a>
+                                <a href="../HTMLPages/posts/readmoreforuk.html">Read Now</a>
                                 <h5>London<br><span>$9000</span></h5>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ session_start();
                             <h3>SINGAPORE<img src="./images/singaporeflag.png" alt=""></h3>
                             <img src="./images/singaporeplace.jpeg" alt="">
                             <div class="btn_city">
-                                <a href="./readmoreforsingapore.html">Read Now</a>
+                                <a href="../HTMLPages/posts/readmoreforsingapore.html">Read Now</a>
                                 <h5>Singapore<br><span>$7000</span></h5>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ session_start();
                             <h3>SWITZERLAND<img src="./images/switzerlandflag.png" alt=""></h3>
                             <img src="./images/switzerlandplace.jpeg" alt="">
                             <div class="btn_city">
-                                <a href="./readmoreforswitzerland.html">Read Now</a>
+                                <a href="../HTMLPages/posts/readmoreforswitzerland.html">Read Now</a>
                                 <h5>Bern<br><span>$8000</span></h5>
                             </div>
                         </div>
