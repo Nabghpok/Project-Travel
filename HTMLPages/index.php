@@ -21,6 +21,7 @@ session_start();
                 <li><a href="#">Home</a></li>
                 <li><a href="../HTMLPages/about us/aboutus.php">About us</a></li>
                 <li><a href="../HTMLPages/contact us/contactustestandcs.php">Contact</a></li>
+                <li><a href="../HTMLPages/fake ticket booking/fake.php">Ticket Booking</a></li>
                 <?php if (isset($_SESSION['username'])) : ?>
                     <li>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></li>
                     <li><a href="../DatabaseValidation/logout.php">Logout</a></li>
@@ -126,32 +127,56 @@ session_start();
                             </h3>
                             <img src="./images/360_F_239221224_ZspRhx9wK21O82bALOVfCJfH2ox2YgNx.jpg" alt="">
                             <div class="btn_city">
+<<<<<<< HEAD
                                 <a href="../HTMLPages/posts/readmorefornepal.php">Read Now</a>
                                 <h5>Kathmandu<br><span>Rs20000</span></h5>
+=======
+                                <a href="./nepal/readmorefornepal.php">Read Now</a>
+                                <a href="./nepal/nepalhotelbooking.php">Book</a>
+                                <h5>Kathmandu</h5>
+>>>>>>> e6f6b4a609b986816148a5445db7f039fb2cd916
                             </div>
                         </div>
                         <div class="card">
                             <h3>UK<img src="./images/ukflag.png" alt=""></h3>
                             <img src="./images/tower bridge.jpeg" alt="">
                             <div class="btn_city">
+<<<<<<< HEAD
                                 <a href="../HTMLPages/posts/readmoreforuk.html">Read Now</a>
                                 <h5>London<br><span>$9000</span></h5>
+=======
+                                <a href="./uk/readmoreforuk.php">Read Now</a>
+                                <a href="./uk/ukhotelbooking.php">Book</a>
+                                <h5>London</h5>
+>>>>>>> e6f6b4a609b986816148a5445db7f039fb2cd916
                             </div>
                         </div>
                         <div class="card">
                             <h3>SINGAPORE<img src="./images/singaporeflag.png" alt=""></h3>
                             <img src="./images/singaporeplace.jpeg" alt="">
                             <div class="btn_city">
+<<<<<<< HEAD
                                 <a href="../HTMLPages/posts/readmoreforsingapore.html">Read Now</a>
                                 <h5>Singapore<br><span>$7000</span></h5>
+=======
+                                <a href="./singapore/readmoreforsingapore.php">Read Now</a>
+                                <a href="./singapore/singaporehotelbooking.php">Book</a>
+                                <h5>Singapore</h5>
+>>>>>>> e6f6b4a609b986816148a5445db7f039fb2cd916
                             </div>
                         </div>
                         <div class="card">
                             <h3>SWITZERLAND<img src="./images/switzerlandflag.png" alt=""></h3>
                             <img src="./images/switzerlandplace.jpeg" alt="">
                             <div class="btn_city">
+<<<<<<< HEAD
                                 <a href="../HTMLPages/posts/readmoreforswitzerland.html">Read Now</a>
                                 <h5>Bern<br><span>$8000</span></h5>
+=======
+                                <a href="./switzerland/readmoreforswitzerland.php">Read Now</a>
+                                <a href="./switzerland/switzerlandhotelbooking.php">Book</a>
+                                <h5>Bern</h5>
+>>>>>>> e6f6b4a609b986816148a5445db7f039fb2cd916
                             </div>
                         </div>
                     </div>
@@ -176,8 +201,9 @@ session_start();
                             <i class="bi bi-chat-fill"><span>5000</span></i>
                         </div>
                         <div class="info_price">
-                            <a href="./moreinfospain.html">More Info</a>
-                            <h4>$3500</h4>
+                            <a href="./spain/moreinfospain.php">More Info</a>
+                            <a href="./spain/spainhotelbooking.php">Book</a>
+                            
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Spain</div>
@@ -197,8 +223,9 @@ session_start();
                             <i class="bi bi-chat-fill"><span>4500</span></i>
                         </div>
                         <div class="info_price">
-                            <a href="./moreinfodubai.html">More Info</a>
-                            <h4>$2500</h4>
+                            <a href="./dubai/moreinfodubai.php">More Info</a>
+                            <a href="./dubai/dubaihotelbooking.php">Book</a>
+                            
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Dubai</div>
@@ -218,8 +245,9 @@ session_start();
                             <i class="bi bi-chat-fill"><span>5000</span></i>
                         </div>
                         <div class="info_price">
-                            <a href="./moreinfoegypt.html">More Info</a>
-                            <h4>$4000</h4>
+                            <a href="./egypt/moreinfoegypt.php">More Info</a>
+                            <a href="./egypt/egypthotelbooking.php">Book</a>
+                            
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Egypt</div>
@@ -239,8 +267,8 @@ session_start();
                             <i class="bi bi-chat-fill"><span>5000</span></i>
                         </div>
                         <div class="info_price">
-                            <a href="./moreinfoindonesia.html">More Info</a>
-                            <h4>$3500</ </div>
+                            <a href="./indonesia/moreinfoindonesia.php">More Info</a>
+                            <a href="./indonesia/indonesiahotelbooking.php">Book</a>
                         </div>
                         <div class="days"> 10 Days<br>Indonesia</div>
                     </div>
@@ -270,5 +298,4 @@ session_start();
 
         <script src="index.js"></script>
 </body>
-
 </html>
