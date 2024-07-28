@@ -482,6 +482,7 @@ header .trip_bx .travel_bx .cards .card .btn_city h5 span {
 }
 
 .destination .des_bx p {
+  margin-top: 2px;
   font-size: 15px;
 
 }

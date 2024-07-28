@@ -91,6 +91,10 @@
 }
 
 @media (max-width: 480px) {
+  .content {
+      padding: 15px;
+  }
+
   .heading {
       font-size: 30px;
   }
@@ -99,12 +103,25 @@
       width: 30%;
   }
 
+  .content-body {
+      flex-direction: column;
+      align-items: center;
+  }
+
   .left_text {
       font-size: 14px;
       padding: 15px;
+      margin-right: 0;
   }
 
   .right_img {
+      width: 100%;
       gap: 5px;
+  }
+
+  .right_img img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
   }
 }

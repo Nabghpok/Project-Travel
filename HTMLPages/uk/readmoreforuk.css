@@ -1,45 +1,83 @@
- /*About Us*/
- .content{
-    width: 100%;
-    background-color: white;
-    height: 88vh;
-    padding: 30px 50px 20px 50px;
-   }
+/* About Us */
+.content {
+  width: 100%;
+  background-color: white;
+  min-height: 88vh;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-   .content .heading{
-     font-size:40px;
-     text-align: center;
-     text-transform: uppercase;
-     font-weight: 500;
-    }
-    .content .line{
-    width: 20%;
-    height: 2px;
-    background-color: #000;
-    margin: aut0;
-     }
+.content .heading {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
 
-     .content .left_text{
+.content .line {
+  width: 20%;
+  height: 2px;
+  background-color: #000;
+  margin: 20px auto;
+}
+
+.content .left_text {
+  width: 100%;
+  margin-top: 30px;
+  line-height: 25px;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content .right_img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.content .right_img img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+      padding: 30px 50px 20px 50px;
+      flex-direction: row;
+  }
+
+  .content .left_text {
       width: 50%;
-      margin-top: 50px;
-      line-height: 25px;
-      text-align: justify;
-      font-weight: 400;
-      font-size: 18px;
-      /*background-color: aliceblue;*/
-      float: left;
       margin-right: 30px;
-      padding: 20px;
-     }
+  }
 
-     .content .left_text p{
-      margin-right: 20px;
-     }
-
-     .content .right_img{
-      float: right;
+  .content .right_img {
       width: 40%;
-      margin-top: 50px;
-     }
+  }
+}
 
-   
+@media screen and (max-width: 480px) {
+  .content .heading {
+      font-size: 30px;
+  }
+
+  .content .left_text {
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content .heading {
+      font-size: 24px;
+  }
+
+  .content .left_text {
+      font-size: 14px;
+  }
+}

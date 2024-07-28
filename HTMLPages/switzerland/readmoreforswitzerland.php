@@ -51,24 +51,15 @@
                      Of course, in this line we should not forget about alphorn, which formerly was also used
                       as a signaling instrument among the herdsmen. As a rule, every village has at least a 
                       choir or a traditional music band.Switzerland, with its cultural life and traditions,
-                       attracts more and more tourists every year. If you like combining discoveries with 
-                       beautiful nature, then Switzerland is the right place to start from!
+                       attracts more and more tourists every year.
                 </p>
-                 <p>
-                    As we venture into Switzerland's Alpine wonderland, we are captivated by the breathtaking
-                     beauty of its landscapes and the endless possibilities for outdoor adventures. 
-                     The country's pristine natural playground offers a thrilling escape from the everyday,
-                      inviting us to explore, discover, and create memories that will last a lifetime. 
-                      In the heart of the Swiss outdoors, we find the perfect setting for unforgettable
-                       adventures and the ultimate ode to nature's splendor.
-                 </p>
-            </div>
+        
             <div class="right_img">
               <img src="./readmoreswitzerlandimage/readmoreswitzerlandphoto1.jpeg" alt="" height="200" width="500px">
               <img src="./readmoreswitzerlandimage/readmoreswitzerlandphoto2.jpeg" alt="" height="200" width="500px">
               <img src="./readmoreswitzerlandimage/readmoreswitzerlandphoto3.jpeg" alt="" height="200" width="500px">
               <img src="./readmoreswitzerlandimage/readmoreswitzerlandphoto4.jpeg" alt="" height="200" width="500px">
-              <img src="./readmoreswitzerlandimage/readmoreswitzerlandphoto5.jpeg" alt="" height="200" width="500px">>
+           
             </div>
         </section>
      </nav>

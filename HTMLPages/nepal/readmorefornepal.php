@@ -135,8 +135,13 @@
                     <p>
                         There are many things to see and do in Nepal. It is a land of ancient culture, religion and traditions.
                         It has a rich history and diverse culture. There are many festivals and celebrations that take place
-                        in Nepal. The festivals and celebrations give a glimpse into the rich culture and religion of Nepal.
-                        It is a land where people live in harmony and peace.
+                        in Nepal. The festivals and celebrations give a glimpse into the rich culture and
+                         religion of Nepal.
+                        It is a land where people live in harmony and peace.Dharapani Temple is a Hindu temple 
+                        located in the Dang district of Nepal, approximately 10 km south of the city of Ghorahi.
+                         The temple is known for its magnificent trishul (trident) that stands at a height of
+                          41 feet (12.5 meters) and weighs 81 quintals and 13 kilograms, making it the largest
+                           and heaviest trishul in the world.
                     </p>
                 </div>
                 <div class="right_img">
@@ -144,8 +149,7 @@
                     <img src="./readmorenepalimage/readmorefornepalphoto1.jpeg" alt="">
                     <img src="./readmorenepalimage/readmorefornepalphoto3.jpeg" alt="">
                     <img src="./readmorenepalimage/readmorefornepalphoto4.jpeg" alt="">
-                    <img src="./readmorenepalimage/readmorefornepalphoto5.jpeg" alt="">
-                    <img src="./readmorenepalimage/readmorefornepalphoto.jpeg" alt="">
+                  
                 </div>
             </div>
         </section>
