@@ -135,14 +135,12 @@ session_start();
             <li><a href="../index.php">Home</a></li>
             <li><a href="../about us/aboutus.php">About US</a></li>
             <li><a href="../contact us/contactustestandcs.php">Contact Us</a></li>
-            <li class="btn-container">
-                <?php if (isset($_SESSION['user_id'])) : ?>
-                    <button onclick="window.location.href='../../logout/logout.php'">Logout</button>
-                <?php else : ?>
-                    <button onclick="window.location.href='../../login/login.php'">Login</button>
-                    <button onclick="window.location.href='../../signup/signup.php'">Signup</button>
-                <?php endif; ?>
-            </li>
+            <!-- <li class="btn-container">
+
+
+                <a href="index.php#loginForm">Login</a>
+                <a href="../HTMLPages/index.php?action=signup">Signup</a>
+            </li> -->
         </ul>
     </div>
     <script>

@@ -154,6 +154,7 @@
             </div>
         </section>
     </nav>
+    <?php include '../HTMLPages/global footer/footer.php'; ?>
 </body>
 
 </html>

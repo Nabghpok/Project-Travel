@@ -21,7 +21,7 @@ session_start();
                 <li><a href="#">Home</a></li>
                 <li><a href="../HTMLPages/about us/aboutus.php">About us</a></li>
                 <li><a href="../HTMLPages/contact us/contactustestandcs.php">Contact</a></li>
-                <li><a href="../HTMLPages/fake ticket booking/fake.php">Ticket Booking</a></li>
+                <li><a href="../HTMLPages/flightbooking and payment processing/index.html">Ticket Booking</a></li>
                 <?php if (isset($_SESSION['username'])) : ?>
                     <li>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></li>
                     <li><a href="../DatabaseValidation/logout.php">Logout</a></li>
@@ -115,9 +115,13 @@ session_start();
                             <h4>People</h4>
                             <input type="number" name="people" placeholder="How many people?" required>
                         </div>
-                        <input type="submit" value="Explore Now">
+                        <input type="submit" id="searchButton" value="Explore Now">
                     </div>
                 </form>
+
+                <!-- search result testing  -->
+
+                <!-- search result testing  ///////////////////////////////////////////////////////////////////////////-->
                 <div id="searchResults"></div>
                 <div class="travel_bx">
                     <h4>Countries to travel</h4>
@@ -127,24 +131,35 @@ session_start();
                             </h3>
                             <img src="./images/360_F_239221224_ZspRhx9wK21O82bALOVfCJfH2ox2YgNx.jpg" alt="">
                             <div class="btn_city">
+                                <a href="../HTMLPages/posts/readmorefornepal.php">Read Now</a>
+                                <h5>Kathmandu<br><span>Rs20000</span></h5>
+
                                 <a href="./nepal/readmorefornepal.php">Read Now</a>
                                 <a href="./nepal/nepalhotelbooking.php">Book</a>
                                 <h5>Kathmandu</h5>
+
                             </div>
                         </div>
                         <div class="card">
                             <h3>UK<img src="./images/ukflag.png" alt=""></h3>
                             <img src="./images/tower bridge.jpeg" alt="">
                             <div class="btn_city">
+                                <a href="../HTMLPages/posts/readmoreforuk.html">Read Now</a>
+                                <h5>London<br><span>$9000</span></h5>
+
                                 <a href="./uk/readmoreforuk.php">Read Now</a>
                                 <a href="./uk/ukhotelbooking.php">Book</a>
                                 <h5>London</h5>
+
                             </div>
                         </div>
                         <div class="card">
                             <h3>SINGAPORE<img src="./images/singaporeflag.png" alt=""></h3>
                             <img src="./images/singaporeplace.jpeg" alt="">
                             <div class="btn_city">
+                                <a href="../HTMLPages/posts/readmoreforsingapore.html">Read Now</a>
+                                <h5>Singapore<br><span>$7000</span></h5>
+
                                 <a href="./singapore/readmoreforsingapore.php">Read Now</a>
                                 <a href="./singapore/singaporehotelbooking.php">Book</a>
                                 <h5>Singapore</h5>
@@ -154,9 +169,13 @@ session_start();
                             <h3>SWITZERLAND<img src="./images/switzerlandflag.png" alt=""></h3>
                             <img src="./images/switzerlandplace.jpeg" alt="">
                             <div class="btn_city">
+                                <a href="../HTMLPages/posts/readmoreforswitzerland.html">Read Now</a>
+                                <h5>Bern<br><span>$8000</span></h5>
+
                                 <a href="./switzerland/readmoreforswitzerland.php">Read Now</a>
                                 <a href="./switzerland/switzerlandhotelbooking.php">Book</a>
                                 <h5>Bern</h5>
+
                             </div>
                         </div>
                     </div>
@@ -183,7 +202,7 @@ session_start();
                         <div class="info_price">
                             <a href="./spain/moreinfospain.php">More Info</a>
                             <a href="./spain/spainhotelbooking.php">Book</a>
-                            
+
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Spain</div>
@@ -205,7 +224,7 @@ session_start();
                         <div class="info_price">
                             <a href="./dubai/moreinfodubai.php">More Info</a>
                             <a href="./dubai/dubaihotelbooking.php">Book</a>
-                            
+
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Dubai</div>
@@ -227,7 +246,7 @@ session_start();
                         <div class="info_price">
                             <a href="./egypt/moreinfoegypt.php">More Info</a>
                             <a href="./egypt/egypthotelbooking.php">Book</a>
-                            
+
                         </div>
                     </div>
                     <div class="days"> 10 Days<br>Egypt</div>
@@ -277,5 +296,11 @@ session_start();
         </div>
 
         <script src="index.js"></script>
+
+
+        <!-- testing seach -->
+
+        <?php include '../HTMLPages/global footer/footer.php'; ?>
 </body>
+
 </html>

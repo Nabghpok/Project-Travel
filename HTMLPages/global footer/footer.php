@@ -22,6 +22,8 @@
 
         /* Header Styles */
         .header {
+            max-width: 100%;
+            max-height: 100px;
             background-color: #333;
             color: #fff;
             padding: 1em;
@@ -125,7 +127,7 @@
 
 <body>
     <header class="header">
-        <h1>Adams & Butler</h1>
+        <h1>Global Tour</h1>
     </header>
     <nav class="nav">
         <ul>
