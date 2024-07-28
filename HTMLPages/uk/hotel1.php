@@ -2,12 +2,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Booking System</title>
     <link rel="stylesheet" href="./hotel.css">
 </head>
+
 <body>
     <header>
         <h1>Hotel Booking System</h1>
@@ -72,16 +74,19 @@
     </main>
     <script src="script.js"></script>
 </body>
+
 </html><!-- index.html -->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Booking System</title>
     <link rel="stylesheet" href="./hotel.css">
 </head>
+
 <body>
     <header>
         <h1>Hotel Booking System</h1>
@@ -145,5 +150,7 @@
         </section>
     </main>
     <script src="script.js"></script>
+    <?php include '../HTMLPages/global footer/footer.php'; ?>
 </body>
+
 </html>

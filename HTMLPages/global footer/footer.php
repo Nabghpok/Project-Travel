@@ -22,6 +22,8 @@
 
         /* Header Styles */
         .header {
+            max-width: 100%;
+            max-height: 100px;
             background-color: #333;
             color: #fff;
             padding: 1em;

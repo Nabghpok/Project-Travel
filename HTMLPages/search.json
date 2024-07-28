@@ -1,39 +1,150 @@
 [
-  {
-    "location": "Nepal",
-    "date": "2024-08-01",
-    "people": 2,
-    "available_packages": [
-      {
-        "name": "Kathmandu Tour",
-        "price": 20000
-      },
-      {
-        "name": "Pokhara Adventure",
-        "price": 25000
-      }
-    ]
-  },
-  {
-    "location": "UK",
-    "date": "2024-09-15",
-    "people": 4,
-    "available_packages": [
-      {
-        "name": "London City Tour",
-        "price": 9000
-      }
-    ]
-  },
-  {
-    "location": "Singapore",
-    "date": "2024-07-20",
-    "people": 3,
-    "available_packages": [
-      {
-        "name": "Singapore Zoo Experience",
-        "price": 7000
-      }
-    ]
-  }
+    {
+        "location": "Nepal",
+        "date": "2024-08-01",
+        "people": 2,
+        "available_packages": [
+            {
+                "name": "Kathmandu Tour",
+                "price": 20000
+            },
+            {
+                "name": "Pokhara Adventure",
+                "price": 25000
+            }
+        ]
+    },
+    {
+        "location": "UK",
+        "date": "2024-09-15",
+        "people": 4,
+        "available_packages": [
+            {
+                "name": "London City Tour",
+                "price": 9000
+            },
+            {
+                "name": "Stonehenge & Bath",
+                "price": 8000
+            },
+            {
+                "name": "Scottish Highlands",
+                "price": 10000
+            }
+        ]
+    },
+    {
+        "location": "Spain",
+        "date": "2024-10-10",
+        "people": 3,
+        "available_packages": [
+            {
+                "name": "Barcelona Highlights",
+                "price": 7000
+            },
+            {
+                "name": "Madrid Art Tour",
+                "price": 4500
+            },
+            {
+                "name": "Andalusia Road Trip",
+                "price": 9000
+            }
+        ]
+    },
+    {
+        "location": "Dubai",
+        "date": "2024-11-05",
+        "people": 5,
+        "available_packages": [
+            {
+                "name": "Burj Khalifa Experience",
+                "price": 7000
+            },
+            {
+                "name": "Desert Safari",
+                "price": 8000
+            },
+            {
+                "name": "Dubai Marina Cruise",
+                "price": 11000
+            }
+        ]
+    },
+    {
+        "location": "Egypt",
+        "date": "2024-12-20",
+        "people": 2,
+        "available_packages": [
+            {
+                "name": "Pyramids of Giza",
+                "price": 6500
+            },
+            {
+                "name": "Nile River Cruise",
+                "price": 15000
+            },
+            {
+                "name": "Alexandria Day Trip",
+                "price": 7000
+            }
+        ]
+    },
+    {
+        "location": "Indonesia",
+        "date": "2024-07-25",
+        "people": 4,
+        "available_packages": [
+            {
+                "name": "Bali Temple Tour",
+                "price": 4000
+            },
+            {
+                "name": "Komodo Dragon Adventure",
+                "price": 12000
+            },
+            {
+                "name": "Java Volcano Trek",
+                "price": 8500
+            }
+        ]
+    },
+    {
+        "location": "Switzerland",
+        "date": "2024-09-05",
+        "people": 3,
+        "available_packages": [
+            {
+                "name": "Swiss Alps Adventure",
+                "price": 12000
+            },
+            {
+                "name": "Lake Geneva Tour",
+                "price": 9000
+            },
+            {
+                "name": "Zurich City Experience",
+                "price": 7000
+            }
+        ]
+    },
+    {
+        "location": "Singapore",
+        "date": "2024-07-20",
+        "people": 3,
+        "available_packages": [
+            {
+                "name": "Singapore Zoo Experience",
+                "price": 7000
+            },
+            {
+                "name": "City Highlights",
+                "price": 5500
+            },
+            {
+                "name": "Night Safari",
+                "price": 5000
+            }
+        ]
+    }
 ]

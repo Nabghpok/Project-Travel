@@ -92,5 +92,5 @@
             </div>
         </section>
     </nav>
-    <?php include '../global footer/footer.php'; ?>
+    <?php include '../HTMLPages/global footer/footer.php'; ?>
 </body>
