@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight Booking</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="../flightbooking and payment processing/style.css">
+    <link rel="stylesheet" href="booking.css">
 </head>
 
 <body>
+
     <div class="container">
         <h1>Flight Booking</h1>
-        <form id="bookingForm" method="POST" action="payment.php">
+        <form id="bookingForm">
             <label for="fromCountry">From Country:</label>
             <select id="fromCountry" name="fromCountry" required>
                 <option value="singapore">Singapore</option>
@@ -42,26 +43,12 @@
                 <option value="business">Business</option>
             </select>
 
-            <label for="departureDate">Departure Date:</label>
-            <input type="date" id="departureDate" name="departureDate" required>
-
             <div id="priceDisplay" style="display: none;">
                 <p id="ticketPrice">Price: $<span id="price">0</span></p>
             </div>
 
-            <input type="hidden" id="hiddenFromCountry" name="fromCountry">
-            <input type="hidden" id="hiddenToCountry" name="toCountry">
-            <input type="hidden" id="hiddenTicketType" name="ticketType">
-            <input type="hidden" id="hiddenDepartureDate" name="departureDate">
-            <input type="hidden" id="hiddenPrice" name="price">
-
             <button type="submit">Book Now</button>
         </form>
-
-        <h2>Previous Bookings</h2>
-        <div id="bookingsList">
-            <!-- Bookings will be displayed here -->
-        </div>
     </div>
 
     <script src="script.js"></script>

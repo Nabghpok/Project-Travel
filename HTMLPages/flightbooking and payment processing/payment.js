@@ -1,4 +1,3 @@
-// payment.js
 document.addEventListener("DOMContentLoaded", function () {
   const paymentForm = document.getElementById("paymentForm");
 
@@ -12,8 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const isCardValid = validateCard(cardType, cardNumber, expiryDate, cvv);
     if (isCardValid) {
-      alert("Your flight is booked for the selected date.");
-      // Redirect to confirmation page or backend processing
+      alert("Payment successful. Click OK to proceed to ticket booking.");
+      // Redirect to ticket booking page after user clicks OK
+      window.location.href = "booking.html"; // Change this to your ticket booking page URL
     } else {
       alert("Invalid card details. Please check and try again.");
     }
