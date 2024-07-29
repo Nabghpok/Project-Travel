@@ -133,7 +133,6 @@ session_start();
                             <div class="btn_city">
                                 <a href="../HTMLPages/posts/readmorefornepal.php">Read Now</a>
                                 <h5>Kathmandu<br><span>Rs20000</span></h5>
-
                                 <a href="./nepal/nepalhotelbooking.php">Book</a>
                                 <h5>Kathmandu</h5>
 
