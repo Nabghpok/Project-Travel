@@ -134,7 +134,6 @@ session_start();
                                 <a href="../HTMLPages/posts/readmorefornepal.php">Read Now</a>
                                 <h5>Kathmandu<br><span>Rs20000</span></h5>
 
-                                <a href="./nepal/readmorefornepal.php">Read Now</a>
                                 <a href="./nepal/nepalhotelbooking.php">Book</a>
                                 <h5>Kathmandu</h5>
 
@@ -144,10 +143,10 @@ session_start();
                             <h3>UK<img src="./images/ukflag.png" alt=""></h3>
                             <img src="./images/tower bridge.jpeg" alt="">
                             <div class="btn_city">
-                                <a href="../HTMLPages/posts/readmoreforuk.html">Read Now</a>
+                                <a href="../HTMLPages/posts/readmoreforuk.php">Read Now</a>
                                 <h5>London<br><span>$9000</span></h5>
 
-                                <a href="./uk/readmoreforuk.php">Read Now</a>
+
                                 <a href="./uk/ukhotelbooking.php">Book</a>
                                 <h5>London</h5>
 
@@ -157,10 +156,10 @@ session_start();
                             <h3>SINGAPORE<img src="./images/singaporeflag.png" alt=""></h3>
                             <img src="./images/singaporeplace.jpeg" alt="">
                             <div class="btn_city">
-                                <a href="../HTMLPages/posts/readmoreforsingapore.html">Read Now</a>
+                                <a href="../HTMLPages/posts/readmoreforsingapore.php">Read Now</a>
                                 <h5>Singapore<br><span>$7000</span></h5>
 
-                                <a href="./singapore/readmoreforsingapore.php">Read Now</a>
+
                                 <a href="./singapore/singaporehotelbooking.php">Book</a>
                                 <h5>Singapore</h5>
                             </div>
@@ -169,10 +168,8 @@ session_start();
                             <h3>SWITZERLAND<img src="./images/switzerlandflag.png" alt=""></h3>
                             <img src="./images/switzerlandplace.jpeg" alt="">
                             <div class="btn_city">
-                                <a href="../HTMLPages/posts/readmoreforswitzerland.html">Read Now</a>
+                                <a href="../HTMLPages/posts/readmoreforswitzerland.php">Read Now</a>
                                 <h5>Bern<br><span>$8000</span></h5>
-
-                                <a href="./switzerland/readmoreforswitzerland.php">Read Now</a>
                                 <a href="./switzerland/switzerlandhotelbooking.php">Book</a>
                                 <h5>Bern</h5>
 
